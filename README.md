@@ -36,6 +36,10 @@ General Sequence:
 - [tqdm](https://github.com/tqdm/tqdm) - Fast, extensible progress bar for loops and CLI.
 
 ## Usage example
+
+### Weights
+The trained CNN weights can be downloaded [here](https://drive.google.com/file/d/125MdZffHyIKDlvom6Z0MMSjfoFhOcDUI/view?usp=sharing).
+
 Launch the program given an input file.
 ```sh
 python main.py -i example_1.mp4 -r results
