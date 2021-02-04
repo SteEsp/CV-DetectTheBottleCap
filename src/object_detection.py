@@ -2,6 +2,20 @@ import numpy as np
 import os
 # https://stackoverflow.com/questions/35911252/disable-tensorflow-debugging-information
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # 2 = INFO and WARNING messages are not printed
+os.environ['KERAS_BACKEND'] = 'tensorflow'
+
+import tensorflow as tf
+print('Tensorflow version : {}'.format(tf.__version__))
+print('GPU : {}'.format(tf.config.list_physical_devices('GPU')))
+from tensorflow import keras
+import tensorflow.keras.backend as K
+from tensorflow.keras.layers import Concatenate, concatenate, Dropout, LeakyReLU, Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
+from tensorflow.keras.layers import add, concatenate
+from tensorflow.keras.models import Model
+
+"""
+# https://stackoverflow.com/questions/35911252/disable-tensorflow-debugging-information
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # 2 = INFO and WARNING messages are not printed
 
 import tensorflow as tf
 print('Tensorflow version : {}'.format(tf.__version__))
@@ -11,6 +25,7 @@ import keras.backend as K
 from keras.layers import Concatenate, concatenate, Dropout, LeakyReLU, Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
 from keras.layers.merge import add, concatenate
 from keras.models import Model
+"""
 
 # Parameters 
 LABELS           = ('BottleCap_FaceDown', 'BottleCap_FaceUp', 'BottleCap_Deformed')

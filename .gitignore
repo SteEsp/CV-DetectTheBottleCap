@@ -129,20 +129,14 @@ dmypy.json
 .pyre/
 
 # Network weights
-weights
+weights/*
 
 # Test results
 app_testing/frame_detector/results
 app_testing/roi_detector/results
 
 # Results
-results
-
-# Notebooks directories
-notebooks/evaluation
-notebooks/roi_annotations
-notebooks/roi_check
-notebooks/roi_images
+results/*
 
 # dataset videos
-dataset/videos
+dataset/*
