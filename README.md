@@ -1,6 +1,11 @@
 ## Bottle Cap Detection Competition WS 20/21
 Computer Vision challenge project, [Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/de), Wintersemester 2020/21. I have been asked to detect and count all bottle caps contained in a at rectangular container from a video, being also able to differentiate them according to the class they belong to.
 
+### Example
+Input video             |  Expected result
+:-------------------------:|:-------------------------:
+![input video example](input_video_example.gif)  |  <img src="https://github.com/SteEsp/CV-DetectTheBottleCap/blob/main/result_1.png" width="600">
+
 ## Motivation
 This project is intended to be an hands on experience with a classic computer vision problem, allowing a better understanding of theoretical ideas behind it. Although this is a toy problem, the techniques developed to approach it can be used, with the necessary modifications, to solve more complex problems.
 
@@ -21,10 +26,6 @@ General Sequence:
 - Objects are thrown into the ROI;
 - The scene to becomes static;
 - Objects are removed from the ROI.
-
-Input video             |  Object detection result
-:-------------------------:|:-------------------------:
-![input video example](input_video_example.gif)  |  <img src="https://github.com/SteEsp/CV-DetectTheBottleCap/blob/main/result_1.png" width="600">
 
 ## Tech/framework used
 <b>Dependences</b>
