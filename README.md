@@ -22,7 +22,9 @@ General Sequence:
 - The scene to becomes static;
 - Objects are removed from the ROI.
 
-![input video example](input_video_example.gif)
+Input video             |  Object detection result
+:-------------------------:|:-------------------------:
+![input video example](input_video_example.gif)  |  ![input video example](result_1.gif)
 
 ## Tech/framework used
 <b>Dependences</b>
