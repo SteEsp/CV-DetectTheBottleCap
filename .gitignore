@@ -129,14 +129,15 @@ dmypy.json
 .pyre/
 
 # Network weights
-weights/*
+weights/*.h5
+weights/*.weights
 
 # Test results
 app_testing/frame_detector/results
 app_testing/roi_detector/results
 
 # Results
-results/*
+results/*.csv
 
 # dataset videos
 dataset/*
