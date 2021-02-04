@@ -24,7 +24,7 @@ General Sequence:
 
 Input video             |  Object detection result
 :-------------------------:|:-------------------------:
-![input video example](input_video_example.gif)  |  ![input video example](result_1.png)
+![input video example](input_video_example.gif)  |  <img src="https://github.com/SteEsp/CV-DetectTheBottleCap/blob/main/result_1.png" width="48">
 
 ## Tech/framework used
 <b>Dependences</b>
