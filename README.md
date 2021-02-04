@@ -38,8 +38,8 @@ General Sequence:
 ## Usage example
 Launch the program given an input file.
 ```sh
-python main.py -i .\example_1.mp4 -r .\results
-python main.py -i .\example_2.mp4 -r .\results
+python main.py -i example_1.mp4 -r results
+python main.py -i example_2.mp4 -r results
 ```
 
 ## Tests
@@ -47,22 +47,22 @@ The main components of the solution's algorithm can be tested separately.
 
 - Extract a static frame (minimum movements)
 ```sh
-cd .\test_modules\test_static_frame_detection\
-python main.py -v dataset\videos\CV20_video_1.mp4 -t dataset\images\CV20_image_1.png [-r .\results]
+cd test_modules/test_static_frame_detection/
+python main.py -v dataset/videos/CV20_video_1.mp4 -t dataset/images/CV20_image_1.png [-r ./results]
 ```
 - Extraction of the ROI and outsiders objects filtering
 ```sh
-cd .\test_modules\test_roi_detection\
-python main.py -f dataset\images\CV20_image_1.png -a dataset\annotations\CV20_label_renamed_1.json [-r .\results]
+cd test_modules/test_roi_detection/
+python main.py -f dataset/images/CV20_image_1.png -a dataset/annotations/CV20_label_renamed_1.json [-r ./results]
 ```
 - Object detection predictions
 ```sh
-cd .\test_modules\test_object_detection\
-python main.py -f ..\..\dataset\images\CV20_image_1.png -a ..\..\dataset\annotations\CV20_label_renamed_1.json [-r .\results]
+cd test_modules/test_object_detection/
+python main.py -f ../../dataset/images/CV20_image_1.png -a ../../dataset/annotations/CV20_label_renamed_1.json [-r ./results]
 ```
 - Object detection results analysis (notebook)
 ```sh
-notebooks\eval_predictions.ipynb
+notebooks/eval_predictions.ipynb
 ```
 
 ## Credits
