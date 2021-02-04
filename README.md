@@ -1,7 +1,7 @@
-## Bottle Cap Detection Competition WS 20/21
-Computer Vision challenge project, [Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/de), Wintersemester 2020/21. I have been asked to detect and count all bottle caps contained in a at rectangular container from a video, being also able to differentiate them according to the class they belong to.
+<img src="https://github.com/SteEsp/CV-DetectTheBottleCap/blob/main/university_logo.png" width="80">
 
-<img src="https://github.com/SteEsp/CV-DetectTheBottleCap/blob/main/university_logo.png" width="300">
+# Bottle Cap Detection Competition WS 20/21
+Computer Vision challenge project, [Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/de), Wintersemester 2020/21. I have been asked to detect and count all bottle caps contained in a at rectangular container from a video, being also able to differentiate them according to the class they belong to.
 
 ### Example
 Input video             |  Expected result
