@@ -38,7 +38,7 @@ General Sequence:
 ## Usage example
 
 ### Weights
-The trained CNN weights can be downloaded [here](https://drive.google.com/file/d/125MdZffHyIKDlvom6Z0MMSjfoFhOcDUI/view?usp=sharing) and should be placed inside the '''weights''' folder.
+The trained CNN weights can be downloaded [here](https://drive.google.com/file/d/125MdZffHyIKDlvom6Z0MMSjfoFhOcDUI/view?usp=sharing) and should be placed inside the (`weights`) folder.
 
 Launch the program given an input file.
 ```sh
