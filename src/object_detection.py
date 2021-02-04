@@ -10,8 +10,6 @@ print('GPU : {}'.format(tf.config.list_physical_devices('GPU')))
 from tensorflow import keras
 import tensorflow.keras.backend as K
 from tensorflow.keras.layers import Concatenate, concatenate, Dropout, LeakyReLU, Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
-from tensorflow.keras.layers import add, concatenate
-from tensorflow.keras.models import Model
 
 """
 # https://stackoverflow.com/questions/35911252/disable-tensorflow-debugging-information
@@ -23,17 +21,16 @@ print('GPU : {}'.format(tf.config.list_physical_devices('GPU')))
 from tensorflow import keras
 import keras.backend as K
 from keras.layers import Concatenate, concatenate, Dropout, LeakyReLU, Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
-from keras.layers.merge import add, concatenate
-from keras.models import Model
 """
 
 # Parameters 
 LABELS           = ('BottleCap_FaceDown', 'BottleCap_FaceUp', 'BottleCap_Deformed')
+CLASS            = len(LABELS)
+
 IMAGE_H, IMAGE_W = 1024, 1024
 GRID_H,  GRID_W  = 32, 32 # GRID size = IMAGE size / 32
 
 BOX              = 5
-CLASS            = len(LABELS)
 ANCHORS          = [
                         0.57273, 0.677385, # anchor box 1, width , height
                         1.87446, 2.06253,  # anchor box 2, width,  height
@@ -41,22 +38,9 @@ ANCHORS          = [
                         7.88282, 3.52778,  # anchor box 4, width,  height
                         9.77052, 9.16828   # anchor box 5, width,  height
                     ] 
+                    
 SCORE_THRESHOLD  = 0.8
 IOU_THRESHOLD    = 0.3
-
-"""
-TRAIN_BATCH_SIZE = 1
-VAL_BATCH_SIZE   = 1
-EPOCHS           = 500
-
-# used in loss calculation 
-LAMBDA_NOOBJECT  = 1
-LAMBDA_OBJECT    = 5
-LAMBDA_CLASS     = 1
-LAMBDA_COORD     = 1
-"""
-
-max_annot        = 0 # max number of objects of interest
 
 # Custom Keras layer
 
