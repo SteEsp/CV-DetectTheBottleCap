@@ -1,5 +1,5 @@
 <img width="50" align="left" src="https://github.com/SteEsp/CV-DetectTheBottleCap/blob/main/university_logo.png" alt="H-BRS logo">
-
+ 
 # Bottle Cap Detection Competition WS 20/21
 Computer Vision challenge project, [Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/de), Wintersemester 2020/21. I have been asked to detect and count all bottle caps contained in a at rectangular container from a video, being also able to differentiate them according to the class they belong to.
 
@@ -48,6 +48,9 @@ python main.py -i example_2.mp4 -r results
 
 ## Tests
 The main components of the solution's algorithm can be tested separately.
+
+### Full dataset
+In order to perform all tests, you need the complete dataset, which can be downloaded from [here](https://drive.google.com/file/d/1mlIbmpzf_xAL2QVk90rfKCfDRRXt8-CE/view?usp=sharing) and should be placed inside the `dataset` folder.
 
 - Extract a static frame (minimum movements)
 ```sh

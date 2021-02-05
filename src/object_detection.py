@@ -11,18 +11,6 @@ from tensorflow import keras
 import tensorflow.keras.backend as K
 from tensorflow.keras.layers import Concatenate, concatenate, Dropout, LeakyReLU, Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
 
-"""
-# https://stackoverflow.com/questions/35911252/disable-tensorflow-debugging-information
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # 2 = INFO and WARNING messages are not printed
-
-import tensorflow as tf
-print('Tensorflow version : {}'.format(tf.__version__))
-print('GPU : {}'.format(tf.config.list_physical_devices('GPU')))
-from tensorflow import keras
-import keras.backend as K
-from keras.layers import Concatenate, concatenate, Dropout, LeakyReLU, Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
-"""
-
 # Parameters 
 LABELS           = ('BottleCap_FaceDown', 'BottleCap_FaceUp', 'BottleCap_Deformed')
 CLASS            = len(LABELS)
@@ -38,7 +26,7 @@ ANCHORS          = [
                         7.88282, 3.52778,  # anchor box 4, width,  height
                         9.77052, 9.16828   # anchor box 5, width,  height
                     ] 
-                    
+
 SCORE_THRESHOLD  = 0.8
 IOU_THRESHOLD    = 0.3
 
