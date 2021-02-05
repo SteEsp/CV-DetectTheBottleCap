@@ -139,5 +139,3 @@ app_testing/roi_detector/results
 # Results
 results/*.csv
 
-# dataset videos
-dataset/*

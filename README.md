@@ -13,9 +13,9 @@ This project is intended to be an hands on experience with a classic computer vi
 
 ## Object detection
 Object Detection and 3 classes classification problem:
-- Bottle Cap Face Up;
-- Bottle Cap Face Down;
-- Bottle Cap Deformed.
+- `BottleCap_FaceUp`;
+- `BottleCap_Face Down`;
+- `BottleCap_Deformed`.
 
 The region of interest (ROI) is a rectangular-shaped with homogenous color,
 and it can also contain distractors objects, which we need to be able to distinguish
