@@ -1,0 +1,318 @@
+{
+    "flags": {},
+    "shapes": [
+        {
+            "label": "BottleCap_FaceUp",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    934,
+                    749
+                ],
+                [
+                    1039,
+                    749
+                ],
+                [
+                    1039,
+                    849
+                ],
+                [
+                    934,
+                    849
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceUp",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    914,
+                    363
+                ],
+                [
+                    1012,
+                    363
+                ],
+                [
+                    1012,
+                    455
+                ],
+                [
+                    914,
+                    455
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceUp",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    1084,
+                    167
+                ],
+                [
+                    1173,
+                    167
+                ],
+                [
+                    1173,
+                    250
+                ],
+                [
+                    1084,
+                    250
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceUp",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    159,
+                    513
+                ],
+                [
+                    259,
+                    513
+                ],
+                [
+                    259,
+                    601
+                ],
+                [
+                    159,
+                    601
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_Deformed",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    1324,
+                    328
+                ],
+                [
+                    1403,
+                    328
+                ],
+                [
+                    1403,
+                    419
+                ],
+                [
+                    1324,
+                    419
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_Deformed",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    1457,
+                    463
+                ],
+                [
+                    1380,
+                    463
+                ],
+                [
+                    1380,
+                    386
+                ],
+                [
+                    1457,
+                    386
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_Deformed",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    1462,
+                    325
+                ],
+                [
+                    1391,
+                    325
+                ],
+                [
+                    1391,
+                    416
+                ],
+                [
+                    1462,
+                    416
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceUp",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    1200,
+                    591
+                ],
+                [
+                    1291,
+                    591
+                ],
+                [
+                    1291,
+                    691
+                ],
+                [
+                    1200,
+                    691
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceDown",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    1101,
+                    446
+                ],
+                [
+                    1202,
+                    446
+                ],
+                [
+                    1202,
+                    542
+                ],
+                [
+                    1101,
+                    542
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceDown",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    884,
+                    166
+                ],
+                [
+                    978,
+                    166
+                ],
+                [
+                    978,
+                    249
+                ],
+                [
+                    884,
+                    249
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceDown",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    189,
+                    363
+                ],
+                [
+                    276,
+                    363
+                ],
+                [
+                    276,
+                    442
+                ],
+                [
+                    189,
+                    442
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceDown",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    309,
+                    346
+                ],
+                [
+                    402,
+                    346
+                ],
+                [
+                    402,
+                    439
+                ],
+                [
+                    309,
+                    439
+                ]
+            ]
+        },
+        {
+            "label": "BottleCap_FaceDown",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    459,
+                    500
+                ],
+                [
+                    375,
+                    500
+                ],
+                [
+                    375,
+                    414
+                ],
+                [
+                    459,
+                    414
+                ]
+            ]
+        }
+    ],
+    "lineColor": [
+        0,
+        255,
+        0,
+        128
+    ],
+    "fillColor": [
+        255,
+        0,
+        0,
+        128
+    ],
+    "imagePath": "CV20_image_1.png",
+    "imageData": null
+}
