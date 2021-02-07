@@ -187,7 +187,7 @@ if __name__ == "__main__":
 
     # export results as .csv-file where entries are always comma separated
 
-    with open(args['results_folder_path'] + '\\' + input_name + '.csv', 'w', newline='') as file:
+    with open(args['results_folder_path'] + '/' + input_name + '.csv', 'w', newline='') as file:
         writer = csv.writer(file, delimiter=',')
         writer.writerows(results)
     
