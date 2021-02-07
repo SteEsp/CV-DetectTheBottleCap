@@ -29,6 +29,10 @@ if __name__ == "__main__":
                             action='store',
                             help='the path to the folder where to store the results',
                             required=True)
+    my_parser.add_argument('-p', '--plot',
+                            action='store',
+                            default='False',
+                            help='True to plot the result, False otherwise')
 
     # Execute the parse_args() method
     args = vars(my_parser.parse_args())
@@ -39,6 +43,10 @@ if __name__ == "__main__":
 
     if not os.path.isdir(args['results_folder_path']):
         print('The path to the folder where to store the results does not exists')
+        sys.exit()
+
+    if args['plot'] != 'True' and args['plot'] != 'False':
+        print('The --plot argument is not valid, it has to be either True or False')
         sys.exit()
 
     input_name = args['input_path'].split("\\")[-1].split(".")[0]
@@ -172,7 +180,8 @@ if __name__ == "__main__":
     
     ## =================== SHOW AND SAVE RESULTS ====================
 
-    cv2.imshow('Object detection results', cv2.resize(img_result, (0, 0), None, .5, .5))
+    if args['plot'] == 'True':
+        cv2.imshow('Object detection results', cv2.resize(img_result, (0, 0), None, .5, .5))
 
     print("Saving results ...",  end = '')
 
